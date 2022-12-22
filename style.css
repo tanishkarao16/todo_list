@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#container {
+    width: 100%;
+    max-width: 75vw;
+    margin:auto;
+}
+
+h3 {
+    color: #313153;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+
+ h4 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+#container #input{
+    display: flex;
+    gap: 20px;
+    
+}
+
+#container input[type="text"] {
+    display: block;
+    font-size: 20px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: .5rem;
+    border: 1px black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+#container input[type="submit"]
+{
+    padding: 20px 20px;
+}
+
+ #output {
+    display: block;
+    font-size: 20px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: .5rem;
+    border: 1px black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+#list {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#show {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 10px;
+    background-color: lightgrey;
+    font-size: 20px;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
